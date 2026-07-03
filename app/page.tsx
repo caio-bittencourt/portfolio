@@ -6,7 +6,6 @@ import Header from "../components/Header";
 import SocialCards from "../components/SocialCards";
 import Hero from "../components/Hero";
 import TechStack from "../components/TechStack";
-import BlogPosts from "../components/BlogPosts";
 import Footer from "../components/Footer";
 
 const containerVariants = {
@@ -51,9 +50,6 @@ export default function Home() {
             </Link>
           </motion.section>
 
-          <motion.section variants={itemVariants}>
-            <BlogPosts />
-          </motion.section>
         </motion.div>
 
         <Footer />
