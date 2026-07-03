@@ -1,9 +1,13 @@
 // Project type
 export interface Project {
+  slug: string;
   title: string;
   description: string;
-  url: string;
+  category: string;
+  repositoryUrl: string;
+  demoUrl?: string;
   stack: string[];
+  featured?: boolean;
 }
 
 // Social link type

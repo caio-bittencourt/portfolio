@@ -2,74 +2,67 @@ import type { Project } from "@/types";
 
 export const PROJECTS: Project[] = [
   {
+    slug: "motor-de-calculo-assincrono",
+    title: "Motor de Cálculo Assíncrono",
+    description:
+      "API que processa partidas em background e recalcula o rating de jogadores com consistência transacional.",
+    category: "Back-end & arquitetura",
+    repositoryUrl:
+      "https://github.com/caiolucasbittencourt/motor-de-calculo-assincrono",
+    stack: [
+      "nodejs.png",
+      "expressjs.png",
+      "typescript.svg",
+      "postgresql.svg",
+      "prisma.png",
+    ],
+    featured: true,
+  },
+  {
+    slug: "tesla-semi",
+    title: "Tesla Semi",
+    description:
+      "Proposta conceitual que aproxima UX/UI e desenvolvimento front-end em uma experiência visual para o Tesla Semi.",
+    category: "UX/UI & front-end",
+    repositoryUrl: "https://github.com/caiolucasbittencourt/tesla-semi",
+    demoUrl: "https://tesla-semi-rust.vercel.app",
+    stack: ["react.svg", "javascript.svg", "tailwindcss.svg"],
+  },
+  {
+    slug: "acervo-de-formula-1",
+    title: "Acervo de Fórmula 1",
+    description:
+      "API para consultar equipes, pilotos e circuitos da Fórmula 1 por meio de endpoints rápidos e bem definidos.",
+    category: "API REST",
+    repositoryUrl:
+      "https://github.com/caiolucasbittencourt/acervo-de-formula-1",
+    stack: ["nodejs.png", "fastify.svg", "typescript.svg"],
+  },
+  {
+    slug: "sherlock-holmes-api",
     title: "Sherlock Holmes API",
     description:
-      "API REST gratuita para citações, casos e personagens de Sherlock Holmes das obras em domínio público de Sir Arthur Conan Doyle.",
-    url: "https://sherlockholmes-api.vercel.app/",
+      "API REST gratuita com citações, casos e personagens das obras de Sherlock Holmes em domínio público.",
+    category: "API pública",
+    repositoryUrl:
+      "https://github.com/caiolucasbittencourt/sherlock-holmes-api",
+    demoUrl: "https://sherlockholmes-api.vercel.app",
     stack: ["nodejs.png", "expressjs.png", "typescript.svg"],
   },
   {
+    slug: "nox-ui",
     title: "Nox UI",
     description:
-      "Uma coleção de componentes de interface de usuário (UI) de copiar e colar para React.",
-    url: "https://github.com/caiolucasbittencourt/nox-ui",
+      "Coleção de componentes React prontos para copiar, com foco em dark mode, movimento e interfaces contemporâneas.",
+    category: "Design system",
+    repositoryUrl: "https://github.com/caiolucasbittencourt/nox-ui",
     stack: ["nextjs.png", "react.svg", "typescript.svg", "tailwindcss.svg"],
-  },
-  {
-    title: "Bookstore API",
-    description:
-      "Uma API REST construída com Node.js, Express e Mongoose. Este projeto serve como back-end para um sistema de livraria.",
-    url: "https://github.com/caiolucasbittencourt/bookstore-api-express",
-    stack: ["nodejs.png", "expressjs.png", "mongodb.svg", "jest.svg"],
-  },
-  {
-    title: "Tesla Semi",
-    description:
-      "Projeto que une design (UX/UI) e desenvolvimento front-end. Uma proposta conceitual para o site do Tesla Semi, construída com Tailwind CSS.",
-    url: "https://tesla-semi-rust.vercel.app/",
-    stack: [""],
-  },
-  {
-    title: "My Bookshelf",
-    description:
-      "Projeto pessoal construído para ser uma estante de livros virtual. Uma exploração de interações e animações com Framer Motion e design responsivo com Tailwind CSS.",
-    url: "https://github.com/caiolucasbittencourt/mybookshelf",
-    stack: [""],
-  },
-  {
-    title: "DEVagas",
-    description: "Newsletter de vagas de tecnologia.",
-    url: "https://github.com/caiolucasbittencourt/devagas",
-    stack: [""],
-  },
-  {
-    title: "F1 API",
-    description:
-      "API para consultar informações do campeonato de Fórmula 1, com dados de equipes, pilotos e circuitos.",
-    url: "https://github.com/caiolucasbittencourt/f1-api-fastify",
-    stack: [""],
-  },
-  {
-    title: "Masterclass Valorant Pro",
-    description:
-      "Landing page para uma campanha de captação de leads de uma masterclass de Valorant.",
-    url: "https://github.com/caiolucasbittencourt/masterclass-valorant-pro",
-    stack: [""],
-  },
-  {
-    title: "Laboracin",
-    description:
-      "Site institucional para um laboratório de análises clínicas, desenvolvida para ser moderna e totalmente responsiva.",
-    url: "https://github.com/caiolucasbittencourt/laboracin",
-    stack: [""],
-  },
-  {
-    title: "Portfólio Pessoal",
-    description: "Este é meu portfólio pessoal.",
-    url: "https://github.com/caiolucasbittencourt/port",
-    stack: [""],
   },
 ];
 
-// Icons that need invert filter on dark background
-export const INVERTED_ICONS = ["nextjs.png", "expressjs.png"];
+export const INVERTED_ICONS = [
+  "nextjs.png",
+  "expressjs.png",
+  "fastify.svg",
+  "prisma.png",
+];
