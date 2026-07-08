@@ -2,61 +2,65 @@ import type { Project } from "@/types";
 
 export const PROJECTS: Project[] = [
   {
-    slug: "motor-de-calculo-assincrono",
-    title: "Motor de Cálculo Assíncrono",
+    slug: "matchwise",
+    title: "Matchwise",
     description:
-      "API que processa partidas em background e recalcula o rating de jogadores com consistência transacional.",
-    category: "Back-end & arquitetura",
-    repositoryUrl:
-      "https://github.com/caiolucasbittencourt/motor-de-calculo-assincrono",
+      "API assíncrona para processar partidas e recalcular o rating de jogadores em background, com consistência transacional no processamento do rating.",
+    category: "Back-end",
+    repositoryUrl: "https://github.com/caiolucasbittencourt/matchwise",
     stack: [
       "nodejs.png",
-      "expressjs.png",
       "typescript.svg",
+      "expressjs.png",
       "postgresql.svg",
       "prisma.png",
     ],
     featured: true,
   },
   {
-    slug: "tesla-semi",
-    title: "Tesla Semi",
+    slug: "semi",
+    title: "Semi",
     description:
-      "Proposta conceitual que aproxima UX/UI e desenvolvimento front-end em uma experiência visual para o Tesla Semi.",
-    category: "UX/UI & front-end",
-    repositoryUrl: "https://github.com/caiolucasbittencourt/tesla-semi",
+      "SPA de front-end com composição de componentes, layout responsivo e organização por rotas.",
+    category: "Front-end",
+    repositoryUrl: "https://github.com/caiolucasbittencourt/semi",
     demoUrl: "https://tesla-semi-rust.vercel.app",
     stack: ["react.svg", "javascript.svg", "tailwindcss.svg"],
   },
   {
-    slug: "acervo-de-formula-1",
-    title: "Acervo de Fórmula 1",
+    slug: "gridbase",
+    title: "Gridbase",
     description:
-      "API para consultar equipes, pilotos e circuitos da Fórmula 1 por meio de endpoints rápidos e bem definidos.",
-    category: "API REST",
-    repositoryUrl:
-      "https://github.com/caiolucasbittencourt/acervo-de-formula-1",
-    stack: ["nodejs.png", "fastify.svg", "typescript.svg"],
+      "API para consultar informações do campeonato de Fórmula 1, com dados de equipes, pilotos e circuitos.",
+    category: "Back-end",
+    repositoryUrl: "https://github.com/caiolucasbittencourt/gridbase",
+    stack: ["nodejs.png", "typescript.svg", "fastify.svg"],
   },
   {
     slug: "sherlock-holmes-api",
     title: "Sherlock Holmes API",
     description:
-      "API REST gratuita com citações, casos e personagens das obras de Sherlock Holmes em domínio público.",
-    category: "API pública",
+      "Free REST API for Sherlock Holmes quotes, cases, and characters from the public domain works of Sir Arthur Conan Doyle.",
+    category: "Back-end",
     repositoryUrl:
       "https://github.com/caiolucasbittencourt/sherlock-holmes-api",
     demoUrl: "https://sherlockholmes-api.vercel.app",
-    stack: ["nodejs.png", "expressjs.png", "typescript.svg"],
+    stack: ["nodejs.png", "typescript.svg", "expressjs.png"],
   },
   {
-    slug: "nox-ui",
-    title: "Nox UI",
+    slug: "linkvault",
+    title: "Linkvault",
     description:
-      "Coleção de componentes React prontos para copiar, com foco em dark mode, movimento e interfaces contemporâneas.",
-    category: "Design system",
-    repositoryUrl: "https://github.com/caiolucasbittencourt/nox-ui",
-    stack: ["nextjs.png", "react.svg", "typescript.svg", "tailwindcss.svg"],
+      "API para catalogar e consultar links, conteúdos técnicos e referências.",
+    category: "Back-end",
+    repositoryUrl: "https://github.com/caiolucasbittencourt/linkvault",
+    stack: [
+      "nodejs.png",
+      "typescript.svg",
+      "nestjs.svg",
+      "postgresql.svg",
+      "jest.svg",
+    ],
   },
 ];
 
