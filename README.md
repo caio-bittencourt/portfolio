@@ -22,7 +22,7 @@ Portfólio com foco em navegação rápida e objetiva.
 ## Instalação
 
 ```bash
-git clone https://github.com/caiolucasbittencourt/portfolio.git
+git clone https://github.com/caio-bittencourt/portfolio.git
 cd portfolio
 npm install
 npm run dev

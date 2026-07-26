@@ -9,7 +9,7 @@ export const SITE_CONFIG = {
 // Social media links
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/caiolucasbittencourt/",
-  github: "https://github.com/caiolucasbittencourt",
+  github: "https://github.com/caio-bittencourt",
   discord: "https://discord.gg/programador",
   whatsapp: "https://wa.me/5599996513294",
 } as const;
