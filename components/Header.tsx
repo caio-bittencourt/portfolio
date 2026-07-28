@@ -46,7 +46,7 @@ export default function Header() {
               className="relative h-10 w-10 cursor-pointer overflow-hidden rounded-full border border-white/10 transition-all duration-300 hover:scale-105 hover:border-white"
             >
               <Image
-                src="/me.png"
+                src="/me.jpg"
                 alt="Caio Bittencourt"
                 fill
                 className="object-cover object-top"
