@@ -178,7 +178,7 @@ export default function Header() {
               {/* Photo */}
               <div className="relative h-44 w-44 overflow-hidden rounded-full border border-white/10 shadow-2xl sm:h-56 sm:w-56">
                 <Image
-                  src="/me.png"
+                  src="/me.jpg"
                   alt={SITE_CONFIG.name}
                   fill
                   className="object-cover object-top"
